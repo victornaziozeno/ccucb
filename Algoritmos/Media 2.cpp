@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(){
-	double a,b,c,media;
+	double notaA,notaB,notaC,media;
 	
 	printf("Nota A:");
-	scanf("%lf",&a);
+	scanf("%lf",&notaA);
 	
 	printf("Nota B:");
-	scanf("%lf", &b);
+	scanf("%lf", &notaB);
 
 	printf("Nota C:");
-	scanf("%lf", &c);
+	scanf("%lf", &notaC);
 	
-	media = (a*2 + b*3 + c*5)/10;
+	media = (notaA*2 + notaB*3 + notaC*5)/10;
 	printf("Media = %lf",media);
 }
 
