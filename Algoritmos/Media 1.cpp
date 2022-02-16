@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define PA 3.5
+#define PB 7.5
 int main(){
 	double notaA,notaB,media;
 	
@@ -8,6 +10,5 @@ int main(){
 	printf("Nota B:");
 	scanf("%lf", &notaB);
 	
-	media = (notaA*3.5 + notaB*7.5)/11;
-	printf("Media = %.1lf",media);
+	printf("Media = %.2lf",(notaA*PA + notaB*PB)/(PA+PB));
 }
