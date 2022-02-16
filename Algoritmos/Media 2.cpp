@@ -12,7 +12,7 @@ int main(){
 	scanf("%lf", &notaC);
 	
 	media = (notaA*2 + notaB*3 + notaC*5)/10;
-	printf("Media = %lf",media);
+	printf("Media = %.1lf",media);
 }
 
 
