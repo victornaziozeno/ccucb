@@ -1,6 +1,10 @@
 #include <stdio.h>
+#define PA 2
+#define PB 3
+#define PC 5
+
 int main(){
-	double notaA,notaB,notaC,media;
+	double notaA,notaB,notaC;
 	
 	printf("Nota A:");
 	scanf("%lf",&notaA);
@@ -11,8 +15,7 @@ int main(){
 	printf("Nota C:");
 	scanf("%lf", &notaC);
 	
-	media = (notaA*2 + notaB*3 + notaC*5)/10;
-	printf("Media = %.1lf",media);
+	printf("Media = %.2lf",(notaA*PA + notaB*PB + notaC*PC)/(PA+PB+PC));
 }
 
 
