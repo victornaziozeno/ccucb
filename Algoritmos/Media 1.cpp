@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-	double a,b,media;
+	double notaA,notaB,media;
 	
 	printf("Nota A:");
-	scanf("%lf",&a);
+	scanf("%lf",&notaA);
 	
 	printf("Nota B:");
-	scanf("%lf", &b);
+	scanf("%lf", &notaB);
 	
-	media = (a*3.5 + b*7.5)/11;
-	printf("Media = %lf",media);
+	media = (notaA*3.5 + notaB*7.5)/11;
+	printf("Media = %.1lf",media);
 }
