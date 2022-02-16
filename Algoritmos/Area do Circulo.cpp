@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <math.h>
+
 int main(){
-	double r,area;
+	double r;
 	
 	printf("Raio: ");
 	scanf("%lf",&r);
 	
-	area = r*r*3.14159;
-	printf("Area = %lf",area);
+	printf("Area = %lf",pow(r,2)*3.14159);
 }
