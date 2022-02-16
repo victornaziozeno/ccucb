@@ -2,7 +2,7 @@
 ### Aulas do curso Ciências da Computação da Universidade Católica de Brasília<br />
 #### Algoritmos:
 ###### Area do Circulo.cpp: Calcula a area do circulo
-###### Diferenca.cpp: Calcula a subtracao entre 2 valores
+###### Diferenca.cpp: Calcula a subtracao entre o produto das 2 primeiras variaveis e o produto das 2 ultimas variaveis
 ###### Extremamente Básico.cpp: Calcula a soma entre 2 valores
 ###### Hello World!.cpp: Apresenta o texto Hello World!
 ###### Media 1.cpp: Calcula a media ponderada entre 2 valores com os pesos 3.5/7.5 respectivamente
