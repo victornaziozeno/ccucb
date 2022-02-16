@@ -2,7 +2,7 @@
 #define PA 3.5
 #define PB 7.5
 int main(){
-	double notaA,notaB,media;
+	double notaA,notaB;
 	
 	printf("Nota A:");
 	scanf("%lf",&notaA);
