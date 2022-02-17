@@ -10,3 +10,4 @@
 ###### Produto Simples.cpp: Calcula a multiplicacao entre 2 valores
 ###### Soma Simples.cpp: Calcula a soma entre 2 valores
 ###### Soma,Subtracao,Produto e Divisao.cpp: Calcula a soma, subtracao, produto e divisao entre 2 valores
+###### Media, nota maior igual 9.5.cpp: Calcula a media aritmetica entre 2 valores e depois compara se são maiores ou iguais a 9.5
