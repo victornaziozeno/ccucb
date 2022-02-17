@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int a,b,prod;
+	int a,b;
 	
 	printf("Numero A: ");
 	scanf("%d", &a);
@@ -8,6 +8,5 @@ int main(){
 	printf("Numero B: ");
 	scanf("%d", &b);
 	
-	prod = a*b;
-	printf("PROD = %d", prod);
+	printf("PROD = %d",a*b );
 }
