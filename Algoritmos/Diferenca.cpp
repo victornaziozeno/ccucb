@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int a,b,c,d,x;
+	int a,b,c,d;
 	
 	printf("Numero A: ");
 	scanf("%d", &a);
@@ -14,6 +14,5 @@ int main(){
 	printf("Numero D: ");
 	scanf("%d", &d);
 	
-	x = a*b-c*d;
-	printf("DIFERENCA = %d", x);
+	printf("DIFERENCA = %d", a*b-c*d);
 }
