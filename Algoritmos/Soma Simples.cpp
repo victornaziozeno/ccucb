@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int a,b,soma;
+	int a,b;
 	
 	printf("Numero A: ");
 	scanf("%d", &a);
@@ -8,6 +8,5 @@ int main(){
 	printf("Numero B: ");
 	scanf("%d", &b);
 	
-	soma = a+b;
-	printf("SOMA = %d", soma);
+	printf("SOMA = %d",a+b);
 }
