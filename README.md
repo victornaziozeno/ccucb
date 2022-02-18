@@ -13,3 +13,4 @@
 ###### Media, nota maior igual 9.5.cpp: Calcula a media aritmetica entre 2 valores e depois compara se são maiores ou iguais a 9.5 e se a frequencia passa 75%
 ###### Teste de Selecao 1.cpp: Compara se 4 valores sao maiores que, suas somas sao maiores que, se sao positivos e se uma das variaveis e par
 ###### DDD.cpp: Confere se o DDD digitado esta registrado
+###### Idade.cpp: Define se baseado na idade a pessoa e: criança, adolescente, adulto, idoso, zumbi ou se a idade e invalida
