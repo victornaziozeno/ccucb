@@ -15,3 +15,4 @@
 ###### DDD.cpp: Confere se o DDD digitado esta registrado
 ###### Idade.cpp: Define se baseado na idade a pessoa e: criança, adolescente, adulto, idoso, zumbi ou se a idade e invalida
 ###### Formula_de_Bhaskara.cpp: Calcula a formula de bhaskara
+###### Multiplas Formulas: Calcula soma, subtracao, produto, divisao, area do circulo, media ponderada e bhaskara
