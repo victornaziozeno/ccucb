@@ -7,7 +7,7 @@ int main(){
     printf("Insira a idade: ");
     scanf("%d",&idade);
     
-    if(idade>0&&idade<=10)
+    if(idade>=0&&idade<=10)
     printf("Crianca");
     else if(idade>10&&idade<18)
     printf("Adolescente");
