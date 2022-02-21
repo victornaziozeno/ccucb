@@ -3,7 +3,7 @@
 
 int main(){
 	
- double valorA,valorB,valorC,d,delta,x1,x2;
+ double valorA,valorB,valorC,delta,x1,x2;
  
  printf("Insira o valor A: ");
  scanf("%lf",&valorA);
