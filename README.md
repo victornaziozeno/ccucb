@@ -14,3 +14,4 @@
 ###### Teste de Selecao 1.cpp: Compara se 4 valores sao maiores que, suas somas sao maiores que, se sao positivos e se uma das variaveis e par
 ###### DDD.cpp: Confere se o DDD digitado esta registrado
 ###### Idade.cpp: Define se baseado na idade a pessoa e: criança, adolescente, adulto, idoso, zumbi ou se a idade e invalida
+###### Formula_de_Bhaskara.cpp: Calcula a formula de bhaskara
