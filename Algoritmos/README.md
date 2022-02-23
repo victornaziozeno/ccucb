@@ -1,4 +1,3 @@
-# CCUCB
 ### Aulas do curso Ciências da Computação da Universidade Católica de Brasília<br />
 #### Algoritmos:
 ###### Area do Circulo.cpp: Calcula a area do circulo
