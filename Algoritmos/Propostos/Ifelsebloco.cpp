@@ -4,7 +4,7 @@ int main(void){
 	int idade=1;
 while (1){
 	printf("ELEITORAL\n\n");	
-	printf("Digite sua idade: \n\n");	
+	printf("Digite sua idade: \n");	
 	scanf("%d",&idade);
 	
 	if(idade<=0){
@@ -20,14 +20,14 @@ while (1){
 	printf("Obrigatorio\n\n");
 	}else{
 	if(idade==65){
-	printf("Premio 1\n");
+	printf("Premio 1\n\n");
 	}else{
 	if (idade<82);{
-	printf("Obrigatorio\n");}
+	printf("Obrigatorio\n\n");}
 	if(idade==82){
-	printf("Premio 2\n");
+	printf("Premio 2\n\n");
 	}else{
 	if (idade>82);{
-	printf("Opcional\n");}
+	printf("Opcional\n\n");}
 return 0;
 }}}}}}}}
