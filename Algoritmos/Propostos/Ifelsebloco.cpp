@@ -22,12 +22,12 @@ while (1){
 	if(idade==65){
 	printf("Premio 1\n\n");
 	}else{
-	if (idade<82);{
+	if (idade<82){
 	printf("Obrigatorio\n\n");}
 	if(idade==82){
 	printf("Premio 2\n\n");
 	}else{
-	if (idade>82);{
+	if (idade>82){
 	printf("Opcional\n\n");}
 return 0;
 }}}}}}}}
