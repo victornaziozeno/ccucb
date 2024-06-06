@@ -1,4 +1,3 @@
-Projeto de atividade prática individual
 Código capaz de ler uma lista de artistas e suas respectivas músicas de um arquivo
 (musicas.txt) e armazenar os registros lidos em uma lista circular duplamente encadeada durante a
 execução. Cada linha do arquivo contém um registro, composto por um artista e o nome de uma música,
