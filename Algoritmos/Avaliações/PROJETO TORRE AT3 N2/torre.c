@@ -1,24 +1,29 @@
 #include <stdio.h>
 #include "torre.h"
 
+//Função que inicializa a pilha definindo o topo como -1
 void inicializar_pilha(Pilha *p){
     p->topo=-1;
 }
 
+//Função que verifica se a pilha está vazia para validações dentro do código
 int pilha_vazia(Pilha *p){
     return p->topo==-1;
 }
 
+//Função que verifica se a pilha está cheia para evitar que discos sejam inseridos além do limite 
 int pilha_cheia(Pilha *p){
     return p->topo==MAX_DISCOS-1;
 }
 
+//Função que insere um disco no topo da pilha
 void empilhar(Pilha *p, int disco){
     if (!pilha_cheia(p)){
         p->discos[++p->topo]=disco;
     }
 }
 
+//Função que remove um disco do topo da pilha
 int desempilhar(Pilha *p){
     if (!pilha_vazia(p)){
         return p->discos[p->topo--];
@@ -26,6 +31,7 @@ int desempilhar(Pilha *p){
     return -1;
 }
 
+//Função que mostra a situação atual das torres na interface
 void mostrar_torres(Pilha *torres, int discos){
     for (int i=0; i<3; i++){
         printf("|Torre %d: ", i+1);
@@ -38,6 +44,7 @@ void mostrar_torres(Pilha *torres, int discos){
     printf("\n");
 }
 
+//Função que move o disco da torre de origem para a torre de destino
 void mover_disco(Pilha *torres, int origem, int destino){
     if (pilha_vazia(&torres[origem])){
         printf("|Torre %d vazia.\n", origem+1);
@@ -53,6 +60,7 @@ void mover_disco(Pilha *torres, int origem, int destino){
     empilhar(&torres[destino], disco);
 }
 
+//Função que reinicia as torres para o estado inicial, fazendo com que o jogo comece do 0
 void reiniciar(Pilha *torres, int discos){
     for (int i=0; i<3; i++){
         inicializar_pilha(&torres[i]);
@@ -62,6 +70,7 @@ void reiniciar(Pilha *torres, int discos){
     }
 }
 
+//Função que verifica se o jogo foi concluido
 int concluir(Pilha *torres, int discos){
     if (torres[2].topo==discos-1){
         for (int i=0; i<discos; i++){
